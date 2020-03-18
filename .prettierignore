@@ -1,0 +1,8 @@
+.cache
+node_modules
+public
+.yarn
+node_modules
+.parcel-cache/
+_eleventy/
+dist/
