@@ -1,0 +1,7 @@
+---
+layout: base.liquid
+---
+<div x-data="{color: false}">
+  <h1 :class="{'text-red-500': color}">Hello, World!</h1>
+  <button @click="color = !color">Color text</button>
+</div>
